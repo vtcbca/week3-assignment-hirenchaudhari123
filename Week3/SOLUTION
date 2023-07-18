@@ -9,7 +9,7 @@ cur.execute(q)
 
 #insert record directy
 
-q1="insert into employee values(1,'jay','Account',5000,'surat'),(2,'suresh','IT',6000,'vyara'),(3,'rahul','HR',7000,'bardoli'),(4,'hiren','IT',8000,'surat'),(5,'dinesh','Inventory',3000,'bardoli')"
+q="insert into employee values(1,'jay','Account',5000,'surat'),(2,'suresh','IT',6000,'vyara'),(3,'rahul','HR',7000,'bardoli'),(4,'hiren','IT',8000,'surat'),(5,'dinesh','Inventory',3000,'bardoli')"
 cur=con.cursor()
 cur.execute(q)
 
